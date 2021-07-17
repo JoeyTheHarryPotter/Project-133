@@ -1,0 +1,34 @@
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#status{
+    font-size: 25px;
+}
+
+#status2{
+    font-size: 25px;
+}
+
+body{
+    background-size: cover;
+}
+
+canvas{
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px royalblue;
+    border: 3px dashed royalblue;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 10px 10px 10px royalblue;}
+    to{box-shadow: 10px 10px 10px rgb(112, 42, 226);}
+}
