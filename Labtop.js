@@ -2,6 +2,10 @@ img = "";
 status = "";
 objects = [];
 
+function back(){
+    window.location = "index.html";
+}
+
 function preload(){
     img = loadImage('Labtop(s).jpg');
 }
